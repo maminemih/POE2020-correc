@@ -1,0 +1,24 @@
+/*=============*/
+/*  SKIPLINKS  */
+/*=============*/
+.skiplinks {
+	display: none;
+
+	@media screen and (min-width: 780px) {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		max-width: 1440px;
+    margin: 0 auto;
+	  padding: 0;
+		
+		li {
+			list-style: none;
+
+			a {
+				display: block;
+				padding: 10px;
+			}
+		}
+	}
+}
